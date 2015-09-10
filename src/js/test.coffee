@@ -23,6 +23,7 @@ results = for item in $('article')
   $(item).height()
 for item,i in results
   handleNum i
+  $('article').eq(i).attr('id','item-'+(i+1))
   $('aside').find('li:first-child').addClass('active')
 $(window).on "scroll", (e) ->
   tbScrollTop = $(window).scrollTop()

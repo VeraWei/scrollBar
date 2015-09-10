@@ -47,6 +47,7 @@
   for (i = _i = 0, _len = results.length; _i < _len; i = ++_i) {
     item = results[i];
     handleNum(i);
+    $('article').eq(i).attr('id', 'item-' + (i + 1));
     $('aside').find('li:first-child').addClass('active');
   }
 
