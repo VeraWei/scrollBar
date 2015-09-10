@@ -2,7 +2,7 @@
   max-width: 980px;
   margin: 0 auto;
 }
-aside {
+.tb_sideBar {
   width: 192px;
   display: inline-block;
   vertical-align: top;
@@ -11,25 +11,25 @@ aside {
   padding-right: 20px;
   box-sizing: border-box;
 }
-aside ul {
+.tb_sideBar ul {
   padding: 0;
   margin: 0;
 }
-aside ul li {
+.tb_sideBar ul li {
   list-style: none;
   margin: 0;
   border-bottom: 1px solid grey;
 }
-aside ul li.active {
+.tb_sideBar ul li.active {
   color: red;
 }
-.sideBar.shouldFixed {
+.tb_sideBar.shouldFixed {
   position: fixed;
 }
-.sideBar {
+.tb_sideBar {
   position: relative;
 }
-.contents {
+.section-tree {
   max-width: 788px;
   float: right;
 }
